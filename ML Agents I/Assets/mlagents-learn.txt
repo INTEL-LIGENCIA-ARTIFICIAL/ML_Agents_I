@@ -4,6 +4,9 @@ cd AppData\Roaming\Python\Python310\Scripts
 
 mlagents-learn --help
 
-mlagents-learn "C:\Users\jial\Documents\GitHub\ML_Agents_I\ML Agents I\Assets\config\rollerball_config.yaml" --run-id=RollerBall
+mlagents-learn "C:\Users\jial\Documents\GitHub\ML_Agents_I\ML Agents I\Assets\config\rollerball_config.yaml" --run-id=RollerBall 
 
 tensorboard --logdir results --port 6006
+
+--resume
+--force
